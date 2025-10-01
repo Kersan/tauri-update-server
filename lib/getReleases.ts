@@ -1,6 +1,6 @@
 const extensions = [
-    { target: 'windows', arch: 'x86_64', extension: `x64_${process.env.DEFAULT_LANG}.msi.zip` },
-    { target: 'windows', arch: 'i686', extension: `x86_${process.env.DEFAULT_LANG}.msi.zip` },
+    { target: 'windows', arch: 'x86_64', extension: 'x64-setup.exe' },
+    { target: 'windows', arch: 'i686', extension: 'x86-setup.exe' },
     { target: 'darwin', arch: 'x86_64', extension: 'x64.app.tar.gz' },
     { target: 'darwin', arch: 'aarch64', extension: 'aarch64.app.tar.gz' },
     { target: 'linux', arch: 'x86_64', extension: 'amd64.AppImage.tar.gz' },
